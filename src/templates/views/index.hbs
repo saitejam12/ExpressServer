@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="css/styles.css" />
+
+</head>
+
+<body>
+
+    <div class="main-content">
+        <h1>
+            Welcome to {{title}}
+        </h1>
+        {{>header}}
+        <form>
+            <input placeholder="location, city, place">
+            <button>Search</button>
+        </form>
+
+        <div>
+            <p id="output1"></p>
+            <p id="output2"></p>
+        </div>
+    </div>
+    {{>footer}}
+    <script src="js/app.js"></script>
+</body>
+
+</html>
